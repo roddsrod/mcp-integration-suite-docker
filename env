@@ -1,0 +1,17 @@
+# for authentication either use oauth or user/pass
+API_OAUTH_CLIENT_ID=sb-8cdd71d9-5c82-4491-a195-13762f67dd0b!b427560|it!b410334
+API_OAUTH_CLIENT_SECRET=4e2b55b9-288c-40c6-a1ac-401e08a8a2a0$4qiUbeVJxpdrkd6sBKH3pZhrZaFNy0biUmwgohOuuJ8=
+API_OAUTH_TOKEN_URL=https://dtlmr-qwertyuiop.authentication.us10.hana.ondemand.com/oauth/token
+
+API_BASE_URL=https://dtlmr-qwertyuiop.it-cpi034.cfapps.us10-002.hana.ondemand.com/api/v1
+
+# Credentials from https://account.sap.com/manage/accounts user account, not your universal ID
+# Probably S00... User
+API_USER=S0026942336
+API_PASS=&&xXxb0xXx&&
+
+# only used for sending test messages to IS
+CPI_BASE_URL=https://dtlmr-qwertyuiop.integrationsuite-cpi034.cfapps.us10-002.hana.ondemand.com
+CPI_OAUTH_CLIENT_ID=sb-448e378d-3b83-47cd-88fa-921319817ab5!b427560|it-rt-dtlmr-qwertyuiop!b410334
+CPI_OAUTH_CLIENT_SECRET=ae3ef7fa-f84b-48af-8cd8-7b3d9e8e1bed$TPCpQl_PrXbj20LpejRyUkiwIKd7QPmhuKYO231wxAQ=
+CPI_OAUTH_TOKEN_URL=https://dtlmr-qwertyuiop.authentication.us10.hana.ondemand.com/oauth/token
