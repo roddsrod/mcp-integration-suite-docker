@@ -2,21 +2,13 @@ version: '3.8'
 
 services:
   mcp-server:
-    # Points to your ready-to-run image on GitHub Registry
     image: ghcr.io/roddsrod/mcp-integration-suite:latest
-    
     container_name: mcp-integration-suite
-    
-    # Required for MCP stdio communication
     stdin_open: true
     tty: false
-    
-    # Inject credentials from local file
     env_file:
       - .env
-      
-    # Run as non-root user for security
     user: mcp
-    
-    # Network settings (bridge allows outbound internet access)
     network_mode: bridge
+    volumes:
+      - ./mcp:/app  # Full access to entire MCP folder
